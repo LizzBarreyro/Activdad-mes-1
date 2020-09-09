@@ -1,0 +1,61 @@
+body , html{
+    height: 100%;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+    
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.form-box{
+    width: 300px;
+    padding: 40px;
+    background: whitesmoke;
+    text-align: center;
+ }
+ .form-title{
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 50px;
+    font-weight: 500 ;
+ }
+ .form-box input[type ="text"],
+ .form-box input[type="password"]{
+     border: 0;
+     background: none;
+     display: block;
+     margin: 20px auto;
+     padding: 14px 10px;
+     text-align: center;
+     border: 2px solid red;
+     width: 200px;
+     outline: none;
+     color: crimson;
+     transition: 0.25s;
+     }
+     
+.form-box input[type="text"]:focus ,
+.form-box input[type="password"]:focus{
+    width: 280px;
+    border-color:crimson;
+}
+.form-box input[type="button"]{
+    border: 0;
+    background : red;
+    outline: none;
+    height: 50px;
+    width: 200px;
+    color: white;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    border-radius: 50px;
+    cursor: pointer;
+}

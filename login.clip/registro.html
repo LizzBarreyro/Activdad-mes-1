@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="css/bootstrap-4.5.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/EstiloRegistro.css">
+    <style>
+
+    </style>
+</head>
+<body>
+    
+    <center>
+        <h3> CREAR CUENTA </h3>
+        <form action="/action_page.php" class="was-validated">
+          <div class="form-group">
+            <label for="name">Nombre:</label>
+            <input type="text" class="form-control" placeholder="Nombre" id="Nombre" name="Nombre" required>
+            <div class="valid-feedback">Valid.</div>
+            <div class="invalid-feedback">* Ingrese el Nombre* </div>
+
+          </div>
+          <div class="form-group">
+            <label for="name">Apellido:</label>
+            <input type="text" class="form-control" placeholder="Apellido" id="Apellido" name="Apellido" required>
+            <div class="valid-feedback">Valid.</div>
+            <div class="invalid-feedback">* Ingrese el Apellido* </div>
+             
+
+          </div>
+          <div class="form-group">
+            <label for="Email">Email address:</label>
+            <input type="email" class="form-control" placeholder="Enter email" id="email" name=" email"required>
+            <div class="valid-feedback">Valid.</div>
+            <div class="invalid-feedback">* Ingrese el Email* </div>
+          </div>
+          <div class="form-group">
+            <label for="pwd">Contraseña:</label>
+            <input type="password" class="form-control" placeholder="Contraseña" id="Contraseña" name="contraseña"required >
+            <div class="valid-feedback">Valid.</div>
+            <div class="invalid-feedback">* Ingrese su contraseña* </div>
+          </div>
+         
+          <button type="submit" class="btn btn-primary"> CREAR CUENTA </button>
+          <button type="submit" class="btn btn-primary" onclick="document.location='inicio.html'"> VOVLER A INICIO</button>
+        </form> 
+  
+           
+       
+
+        
+    
+    </center>
+</body>
+</html>

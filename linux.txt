@@ -1,0 +1,2 @@
+https://bitnami.com/stack/lamp
+https://bitnami.com/stack/mean
